@@ -44,7 +44,7 @@ dictMe2 = {
     "Z": 6,
 }
 
-data = pl.read_csv("Day 2/input.txt", has_header=False, sep=" ")
+data = pl.read_csv("data/day2.txt", has_header=False, sep=" ")
 part1 = data.select(
     [
         pl.all(),

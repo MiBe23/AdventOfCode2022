@@ -1,6 +1,6 @@
 import numpy as np
 
-input = open("Day 1/input.txt", "r")
+input = open("data/day1.txt", "r")
 elfCount = 0
 calories = np.zeros(1, dtype=int)
 for line in input:

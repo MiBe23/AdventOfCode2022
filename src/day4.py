@@ -25,7 +25,7 @@ def determinePartialOverlap(x):
         return 0
 
 
-data = pl.read_csv("Day 4/input.txt", has_header=False)
+data = pl.read_csv("data/day4.txt", has_header=False)
 data = data.select(
     [
         pl.col(["column_1"]).str.split("-").alias("elf1"),

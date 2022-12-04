@@ -9,7 +9,7 @@ priority1 = 0
 priority2 = 0
 lineCount = 0
 groupString = ["", "", ""]
-input = open("Day 3/input.txt", "r")
+input = open("data/day3.txt", "r")
 for line in input:
     n = len(line)
     s1 = line[0 : n // 2]
